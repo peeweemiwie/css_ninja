@@ -46,6 +46,7 @@ or
 
 **`repeat` is not supported by IE, Edge nor Safari
 
+
 ## `grid-column-gap` `grid-row-gap`
 
 Specifies the size of the grid lines. You can think of it like setting the width of the gutters between the columns/rows.
