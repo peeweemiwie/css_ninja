@@ -41,3 +41,18 @@ or
   grid-template-columns: repeat(3, 1fr);
 }
 ```
+
+## `grid-column-gap` `grid-row-gap`
+
+Specifies the size of the grid lines. You can think of it like setting the width of the gutters between the columns/rows.
+
+Sort of like `margin-right` `margin-bottom` to separate content and provide space between the elements.
+
+```
+.container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10rem auto;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1.5rem;
+}
+```
