@@ -32,15 +32,19 @@ The fr unit allows you to set the size of a track as a fraction of the free spac
 
 ``` 
 .container {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 ```
 or
 ``` 
 .container {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 ```
+
+**`repeat` is not supported by IE, Edge nor Safari
 
 ## `grid-column-gap` `grid-row-gap`
 
@@ -50,6 +54,7 @@ Sort of like `margin-right` `margin-bottom` to separate content and provide spac
 
 ```
 .container {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 10rem auto;
   grid-column-gap: 1rem;
